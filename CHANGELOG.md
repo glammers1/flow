@@ -1,3 +1,11 @@
+# Version 3.0.0
+- Change organization from `com.github.jodersky` to `ch.jodersky`
+- Refactor code to `ch.jodersky` package
+- Upgrade Akka to 2.4.7
+- Build:
+    - Upgrade sbt-jni to 1.1.0 (no more transitive dependency on jni-library)
+	- Modularize website into gh-pages, keeping only user guides in master
+
 # Version 2.6.0
 - Implement streaming API for port watchers
 - Upgrade Akka to 2.4.4

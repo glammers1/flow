@@ -12,7 +12,7 @@ object FlowBuild extends Build {
     scalaVersion in ThisBuild := scalaVersions.head,
     crossScalaVersions in ThisBuild := scalaVersions.reverse,
     scalacOptions ++= Seq("-deprecation", "-unchecked", "-feature", "-target:jvm-1.8"),
-    organization := "com.github.jodersky",
+    organization := "ch.jodersky",
     licenses := Seq(("BSD New", url("http://opensource.org/licenses/BSD-3-Clause"))),
     homepage := Some(url("https://jodersky.github.io/flow")),
     pomIncludeRepository := { _ => false },
